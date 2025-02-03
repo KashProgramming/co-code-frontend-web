@@ -14,7 +14,7 @@ function CramBot({ onBack, onPanicNotes, onQuizard, currentView }) {
     <div className="main-content">
       <div className="crambot-card">
         <h2>
-          This is your time to <span className="underline">Cram!</span>
+          This is your time to <a href="https://crambot.streamlit.app">Cram!</a>a>
         </h2>
 
         <form onSubmit={handleSubmit} className="crambot-form">
