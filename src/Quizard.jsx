@@ -58,9 +58,9 @@ function Quizard({ onBack, onPanicNotes, onCramBot, currentView }) {
               ))}
             </div>
 
-           <a href="https://quizzard.streamlit.app"> <button type="submit" className="submit-button"></a>
+           <a href="https://quizzard.streamlit.app"> <button type="submit" className="submit-button">
               Submit
-            </button>
+            </button></a>
           </div>
         </form>
 
