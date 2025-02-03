@@ -10,7 +10,7 @@ function PanicNotes({ onBack, onCramBot, onQuizard, currentView }) {
     <div className="main-content">
       <div className="panic-notes-card">
         <h2>Your panic notes are ready!</h2>
-        <button className="download-button" onClick={handleDownload}>
+       <a href="https://panic-notes.streamlit.app"> <button className="download-button" onClick={handleDownload}></button></a>
           <Download className="download-icon" />
           DOWNLOAD
         </button>
